@@ -1,0 +1,369 @@
+body{
+	overflow-x:hidden;
+}
+.top_menu ul{
+	text-align:right;
+}
+.top_menu ul .fa{
+	color:#fff;
+	font-size:20px;
+	padding:10px;
+}
+.top_menu ul li a{
+	text-decoration:none;
+	color:#fff;
+}
+.top_menu ul li{
+	list-style:none;
+	display:inline;
+	padding:30px;
+	color:#fff;
+	
+	
+}
+.nav_items{
+	border-bottom:2px solid black;
+}
+.nav_items .li_items{
+	font-size:20px;
+	font-weight:200px;
+}
+.nav_items #what_is_datasim{
+	font-size:30px;
+	font-weight:bold;
+	margin-right:140px;
+}
+.menu_holder{
+	min-height:400px;
+	background-attachment: fixed;
+	 background-repeat: no-repeat;
+    background-size: auto;
+	background-image: linear-gradient(-60deg, #FFD700 0%, #FFD700 100%);
+
+}
+.text_holder{
+	
+}
+.menu_holder .buttons-text{
+	padding-top:20px;
+	
+}
+.buttons-text .button1{
+	height:45px;
+	width: 250px;
+	background:black;
+	color:white;
+	border-radius:20px;
+	font-size:20px;
+}
+.buttons-text .button2{
+	height:45px;
+	width: 250px;
+	margin-left:10px;
+	background:white;
+	color:black;
+	border-radius:20px;
+	font-size:20px;
+}
+.buttons-text .button1 .fa{
+	font-size:35px;
+	color:#FFD700;
+	position:absolute;
+	right:50px;
+}
+.buttons-text .button2 .fa{
+	font-size:35px;
+	color:#FFD700;
+	position:absolute;
+	left:230px;
+}
+ .data_sim_wrapper .dsmbutton1{
+	 height:45px;
+	width: 250px;
+	background:black;
+	color:white;
+	border-radius:20px;
+	font-size:20px;
+ }
+ .data_sim_wrapper .dsmbutton1 .fa{
+	font-size:35px;
+	color:#FFD700;
+	position:absolute;
+	left:44%;
+ }
+ .data_sim_wrapper .dsmbutton2{
+	 height:45px;
+	width: 250px;
+	margin-left:20px;
+	background:white;
+	color:black;
+	border-radius:20px;
+	font-size:20px;
+ }
+  .data_sim_wrapper .dsmbutton2 .fa{
+	 font-size:35px;
+	color:#FFD700;
+	position:absolute;
+	left:82%;
+ }
+
+.menu_holder .all_your_needs{
+	font-size:40px;
+}
+.menu_holder .custom_plans{
+	font-weight:bold;
+	font-size:40px;
+}
+.inner_wrapper{
+	height:300px;
+	width:100%;
+	background:url('../images/earth.jpeg') no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+.phone_image{
+	position:absolute;
+	right:20%;
+	top:30%;	
+}
+.data_sim_wrapper{
+	width:100%;
+	min-height:400px;
+	background: #f2f2f2;
+}
+.data_sim_wrapper .all_your_needs{
+	font-size:40px;
+}
+.data_sim_wrapper .custom_plans{
+	font-weight:bold;
+	font-size:40px;
+}
+.first_panel .button1{
+	font-weight:bold;
+	height:60px;
+	width: 230px;
+	background:black;
+	color:white;
+	border-radius:20px;
+}
+.first_panel .button2{
+	height:60px;
+	width: 230px;
+	margin-left:10px;
+	background:white;
+	color:black;
+	border-radius:20px;
+}
+.data_sim_wrapper .sim{
+	color:red;
+}
+.whats_datasim{
+	padding-top:20px;
+}
+.whats_datasim .first_panel{
+	background:#f2f2f2;
+	padding-left:70px;
+	padding-bottom:40px;
+}
+.whats_datasim .second_panel{
+	
+}
+.whats_datasim .data_plans{
+	font-size:30px;
+	font-weight:bold;
+}
+.whats_datasim .data_plan{
+	background:#fff;
+	padding:20px 0px 21px 70px;
+	
+}
+
+.whats_datasim .data{
+	color:#FFD700;
+}
+.whats_datasim .data_paragraph{
+	font-size:20px;
+}
+.whats_datasim .data_plan{
+	margin:0px;
+	border:1px solid #f2f2f2;
+	border-bottom:0;
+	border-left:0;
+}
+.whats_datasim .guaranteed{
+	font-size:20px;
+}
+.whats_datasim .samsung_lower{
+	
+}
+.tab_holder{
+	height:455px;
+}
+.tab_holder .tabs {
+	display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.tab_holder .tab_info{
+	padding:0px 70px;
+	background:#FFD700;
+	width:100%;
+}
+
+.tab_holder ul li:hover{
+	color:#fff;
+	background:#666;
+}
+.tab_holder ul li a{
+	text-decoration:none;
+	display: block;
+	color: white;
+	 text-align: center;
+}
+.tab_holder ul li.active{
+	color:#000;
+	background:#FFD700;
+}
+.tab_holder ul li.active::after{
+	content:"";
+	position:absolute;
+	length:10px;
+	width:10px;
+	background:blue;
+	z-index:1;
+	
+}
+.tab_holder ul{
+	margin:0px;
+	padding:0px;
+}
+.tab_holder ul li{
+	display: table-cell;
+    width: 100%;
+	height: 100px;
+	list-style:none;
+	background:#fff;
+	border-radius:10px 10px 0px 0px;
+	color:#000;
+	cursor:pointer;
+	font-weight:200;
+	padding:5% 10%;
+	
+}
+.tab_holder .panel{
+	display:none;
+}
+.tab_holder .panel.active{
+	display:block;
+}
+.search-box	{
+	display:inline-flex;
+	position:absolute;
+	z-index:10;
+	left:30%;
+}
+.search_box{
+	border:3px solid #f9f9f9;
+	border-radius:20px 0px 0px 20px;
+	padding:10px;
+	width:400px;
+	
+}
+.submit_button{
+	padding:10px;
+	border:3px solid #f9f9f9;
+	border-radius:0px 20px 20px 0px;
+	border-left:0;
+	outline:0;
+}
+#map{
+	width:100%;
+	height:400px;
+}
+.final_wrapper{
+	position:relative;
+}
+.final_wrapper .first{
+	height:400px;
+	background:#f9f9f9;
+	width:100%;
+}
+.final_wrapper .second{
+	height:400px;
+	background:#FFD700;
+	width:100%;
+}
+
+.final_wrapper .first .big_text{
+	font-weight:bold;
+	margin-top:10px;
+	color:#FFD700;
+}
+.data-sim{
+	color:#000;
+}
+.floating_image{
+	position:absolute;
+	z-index:30;
+	left:15%;
+	bottom:32%;
+}
+.card_holder{
+	width:850px;
+	background:#fff;
+	position:absolute;
+	z-index:20;
+	bottom:40%;
+	left:15%;
+	border-radius:10px;
+}
+.card_holder .form{
+	padding:20px;
+}
+
+footer{
+position:absolute;
+bottom:15%;
+left:30%;
+}
+
+footer li{
+	list-style-type:none;
+	font-size:16px;
+	color:#000;
+}
+footer a{
+	text-decoration:none;
+	color:#000;
+}
+.final_wrapper .social li{
+	list-style:none;
+	display:inline;
+	padding:5px;
+}
+.final_wrapper .social li .fa{
+	font-size:20px;
+}
+.final_wrapper .social{
+	position:absolute;
+	right:20%;
+	bottom:7%;
+}
+.final_wrapper .smbt_btn{
+	height:45px;
+	width: 250px;
+	background:#FFD700;
+	color:white;
+	border-radius:20px;
+	font-size:20px;
+}
+@media only screen and (max-width: 768px) {
+    
+    .intro{
+        display:none;
+    }
+    .navbar{
+        background:blue;
+    }
+   
+}
